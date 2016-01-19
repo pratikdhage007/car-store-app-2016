@@ -1,1 +1,7 @@
 /target/
+# Eclipse
+.classpath
+.project
+.settings/
+.svn
+.svn/entries
