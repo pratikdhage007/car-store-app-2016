@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints
+  xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime"
+  version="2.0">
+<!-- Here we are registering the web-service, which can be accessed by the following url-pattern  -->
+	 
+  <endpoint
+      name="helloWorld"
+      implementation="com.car.soap.webservice.HelloWorld"
+      url-pattern="/helloWorld"/>
+
+</endpoints>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:cars xmlns:tns="http://www.soap.com/cars" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.soap.com/cars cars.xsd ">
+  <tns:car>
+	    <tns:cid>0</tns:cid>
+	    <tns:name>tns:name</tns:name>
+	    <tns:price>0</tns:price>
+	    <tns:transmission>tns:transmission</tns:transmission>
+	    <tns:warranty>0</tns:warranty>
+	    <tns:horsepower>tns:horsepower</tns:horsepower>
+  </tns:car>
+
+</tns:cars>

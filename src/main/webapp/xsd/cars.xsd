@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.soap.com/cars" 
+xmlns:tns="http://www.soap.com/cars" elementFormDefault="qualified">
+
+	<!-- global element -->
+	<element name="cars" type="tns:carlist"></element>
+	
+	<complexType name="carlist">
+		<sequence>
+			<element name="car" type="tns:thecar" minOccurs="1" maxOccurs="unbounded"></element>
+		</sequence>
+	</complexType>
+	
+	<complexType name="thecar">
+		<sequence>
+			<element name="cid" type="int" minOccurs="1" maxOccurs="1"></element>
+			<element name="name" type="string" minOccurs="1" maxOccurs="1"></element>
+			<element name="price" type="int" minOccurs="1" maxOccurs="1"></element>
+			<element name="transmission" type="string" minOccurs="1" maxOccurs="1"></element>
+		    <element name="warranty" type="int" minOccurs="1" maxOccurs="1"></element>
+		    <element name="image" type="base64Binary" minOccurs="0" maxOccurs="1"></element>
+		    <element name="horsepower" type="string" minOccurs="1" maxOccurs="1"></element>	 
+		</sequence>
+	</complexType>
+
+</schema>

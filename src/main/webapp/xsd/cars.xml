@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars xmlns="http://www.soap.com/cars" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.soap.com/cars cars.xsd">
+	<car>
+		<cid>009</cid>
+		<name>Chrysler 300</name>
+		<price>45000</price>
+		<transmission>6-Speed Auto</transmission>
+		<warranty>3</warranty>
+		<horsepower>400bhp @ 1200</horsepower>
+	</car>
+
+	<car>
+		<cid>333</cid>
+		<name>Dodge Charger</name>
+		<price>40000</price>
+		<transmission>6-Speed Auto</transmission>
+		<warranty>2</warranty>
+		<horsepower>400bhp @ 1500</horsepower>
+	</car>
+
+</cars>
